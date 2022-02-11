@@ -266,7 +266,7 @@ function parseFcData(topic, str_message) {
 
 let MSW_mobius_mqtt_client = null;
 
-MSW_mobius_mqtt_connect(drone_info.host, 1883);
+MSW_mobius_mqtt_connect('203.253.128.177', 1883);
 
 function MSW_mobius_mqtt_connect(broker_ip, port) {
     if (MSW_mobius_mqtt_client == null) {
