@@ -70,14 +70,14 @@ try {
 let msw_sub_muv_topic = [];
 
 let msw_sub_fc_topic = [];
-msw_sub_fc_topic.push('/Mobius/' + config.gcs + '/Drone_Data/' + config.drone + '/heartbeat');
-msw_sub_fc_topic.push('/Mobius/' + config.gcs + '/Drone_Data/' + config.drone + '/global_position_int');
-msw_sub_fc_topic.push('/Mobius/' + config.gcs + '/Drone_Data/' + config.drone + '/attitude');
-msw_sub_fc_topic.push('/Mobius/' + config.gcs + '/Drone_Data/' + config.drone + '/battery_status');
+msw_sub_fc_topic.push('/Mobius/KETI_MUV/Drone_Data/KEA_Test/heartbeat');
+msw_sub_fc_topic.push('/Mobius/KETI_MUV/Drone_Data/KEA_Test/global_position_int');
+msw_sub_fc_topic.push('/Mobius/KETI_MUV/Drone_Data/KEA_Test/attitude');
+msw_sub_fc_topic.push('/Mobius/KETI_MUV/Drone_Data/KEA_Test/battery_status');
 
 let msw_sub_lib_topic = [];
 
-let remote_topic = '/Mobius/' + config.gcs + '/RC_Data/KEA_RC';
+let remote_topic = '/Mobius/KETI_MUV/RC_Data/KEA_RC';
 
 function init() {
     if (config.lib.length > 0) {
