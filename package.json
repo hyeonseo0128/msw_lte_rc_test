@@ -1,0 +1,27 @@
+{
+  "name": "msw_lte_rc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "msw_lte_rc_3.js",
+  "dependencies": {
+    "keypress": "^0.2.1",
+    "mqtt": "^4.2.8",
+    "nanoid": "^3.1.30",
+    "serialport": "^9.2.0",
+    "sf": "^0.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IoTKETI/msw_lte_rc.git"
+  },
+  "author": "Wonseok Jung",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IoTKETI/msw_lte_rc/issues"
+  },
+  "homepage": "https://github.com/IoTKETI/msw_lte_rc#readme"
+}
